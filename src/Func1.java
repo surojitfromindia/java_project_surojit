@@ -1,9 +1,6 @@
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class Func1 {
     static int addone(int l) {
-        int p = l + 3;
-        return p;
+        return l + 3;
     }
 
     static boolean isEven(int k) {
@@ -15,8 +12,7 @@ public class Func1 {
     }
 
     static int sum(int f, int b) {
-        int d = f + b;
-        return d;
+        return f + b;
 
 
     }
@@ -62,9 +58,7 @@ public class Func1 {
 
     static double math(double l, double i, double m) {
 
-        double k = l + i - m;
-
-        return k;
+        return l + i - m;
 
     }
 
@@ -164,7 +158,7 @@ public class Func1 {
         System.out.println(Func1.countHowManyElements(rou));
 
 
-        int[]number={2789,5645,4565,355,3454,34546};
+        int[] number = {2789, 5645, 4565, 355, 3454, 34546};
 
         System.out.println(Func1.compareArray(number, rou));
     }
