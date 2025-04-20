@@ -5,9 +5,9 @@ public class Main {
 
 
 
-    JavaArray.run();
-    ForLoop.run();
-
+//    JavaArray.run();
+//    ForLoop.run();
+Func1.run();
 
   }
 
